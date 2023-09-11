@@ -33,6 +33,12 @@
     justify-content: center;
     gap: 20px;
 }
+.section-flex{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: row;
+}
 ul{
     list-style: none;
 }
@@ -96,6 +102,15 @@ body{
 }
 main section{
     padding: 60px 0;
+}
+h2{
+    font-size: 50px;
+    padding-top: 27px;
+}
+.small{
+    font-size: 20px;
+    padding: 20px 0;
+
 }
 .even{
     background-color: var(--color-section);
