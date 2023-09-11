@@ -46,9 +46,16 @@ a:hover{
     color: var(--color-secondary);
     text-decoration: underline;
 }
+a.underline-dark:hover{
+    color: var(--color-primary);
+    text-decoration: underline;
+}
 /*Header*/
 header{
     background-color: var(--color-header);
+}
+.space{
+    height: 20px;
 }
 #hero{
     background-image: url("../img/jumbo.png");
@@ -69,13 +76,15 @@ header{
 }
 .hero-content p{
     text-align: center;
+    padding: 15px;
 }
 .btn{
     display: inline-block;
     background-color: var(--color-secondary);
     border-radius: 1.5rem;
     padding: 10px;
-    color: var(--color-primary); 
+    color: var(--color-primary);
+    font-weight: bold;
 }
 .bg-dark{
     background-color: var(--color-primary);
