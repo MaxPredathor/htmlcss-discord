@@ -39,6 +39,9 @@
     align-items: flex-start;
     flex-direction: row;
 }
+.reverse-flex{
+    flex-direction: row-reverse;
+}
 ul{
     list-style: none;
 }
