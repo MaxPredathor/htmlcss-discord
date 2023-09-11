@@ -10,3 +10,37 @@
     --color-bluastro: #7289da;
     --color-header: #255ee9;
 }
+/*General*/
+.debug{
+    border: 2px solid firebrick;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 5px;
+}
+.d-flex{
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+/*Header*/
+header{
+    background-color: var(--color-header);
+}
+/*Main*/
+body{
+    background-color: var(--color-secondary);
+}
+main section{
+    padding: 60px 0;
+}
+.even{
+    background-color: var(--color-section);
+}
+/*Footer*/
+footer{
+    background-color: var(--color-primary);
+    color: var(--color-secondary);
+}
