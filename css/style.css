@@ -18,6 +18,7 @@
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 5px;
+    position: relative;
 }
 .d-flex{
     display: flex;
@@ -41,6 +42,10 @@
 }
 .reverse-flex{
     flex-direction: row-reverse;
+}
+.column{
+    flex-direction: column;
+    align-items: center;
 }
 ul{
     list-style: none;
@@ -116,6 +121,17 @@ h2{
 }
 .even{
     background-color: var(--color-section);
+}
+.stelline{
+    position: absolute;
+    bottom: 55px;
+    left: 400px;
+    font-size: 25px;
+    font-weight: bold;
+}
+.bg-blue{
+    background-color: var(--color-bluastro);
+    color: var(--color-secondary);
 }
 /*Footer*/
 footer{
