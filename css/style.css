@@ -63,6 +63,7 @@ a{
 a:hover{
     color: var(--color-secondary);
     text-decoration: underline;
+    box-shadow: 5px 8px 8px 8px rgba(49, 48, 48, 0.8);
 }
 a.underline-dark:hover{
     color: var(--color-primary);
