@@ -24,7 +24,7 @@ html{
 }
 .d-flex{
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: row;
     justify-content: space-between;
     align-items: center;
     align-content: center;
@@ -36,8 +36,8 @@ html{
     justify-content: center;
     gap: 20px;
 }
-.start-flex{
-    align-content: flex-start;
+.flex-items-start{
+    align-items: flex-start;
 }
 .section-flex{
     display: flex;
@@ -66,7 +66,7 @@ a{
 a:hover{
     color: var(--color-secondary);
     text-decoration: underline;
-    box-shadow: 5px 8px 8px 8px rgba(49, 48, 48, 0.8);
+    box-shadow: 5px 6px 6px 6px rgba(49, 48, 48, 0.7);
 }
 a.underline-dark:hover{
     color: var(--color-primary);
@@ -134,6 +134,12 @@ h2{
     padding-top: 27px;
     color: var(--color-primary);
 }
+.width-img{
+    width: 55%;
+}
+.width-text{
+    width: 45%;
+}
 .small{
     font-size: 20px;
     padding: 5px 0;
@@ -198,9 +204,14 @@ footer{
 h3{
     color: var(--color-bluastro);
     font-size: 2rem;
+    margin-bottom: 10px;
 }
 h4{
     color: var(--color-bluastro);
+    font-size: 20px;
+}
+.c-height{
+    min-height: 600px;
 }
 .blue-border{
     border-top: 1px solid var(--color-bluastro);
@@ -210,6 +221,8 @@ h4{
     position: relative;
     min-width: 50px;
     height: 30px;
+    display: flex;
+    padding: 3px 0;
 }
 #flag{
     max-width: 30%;
@@ -219,7 +232,36 @@ h4{
     appearance: none;
     background-color: var(--color-primary);
     color: var(--color-secondary);
-    padding: 0 30px 0 15px;
+    padding: 0 30px 0 28px;
     max-width: 70%;
     font-size: 1rem;
+    border: 1px solid var(--color-secondary);
+    border-radius: 5px;
+    margin-left: 10px;
+}
+.select-container .icon-container{
+    width: 15px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 55px;
+    bottom: 2px;
+}
+.icon-container i{
+    font-size: 25px;
+    color: var(--color-secondary);
+}
+.lista-footer,h3{
+    margin-top: 60px;
+}
+.lista-footer > li{
+    margin-top: 15px;
+}
+.footer-icon{
+    max-height: 30px;
+    max-width: 25%;
+    font-size:25px;
+    padding: 10px 0;
 }
