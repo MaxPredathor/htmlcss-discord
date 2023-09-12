@@ -34,6 +34,7 @@ html{
 #register-title{
     color: var(--color-secondary);
     text-align: center;
+    font-size: 25px;
 }
 .register-container{
     width: 500px;
@@ -43,17 +44,18 @@ html{
     left: 50%;
     top: 50%;
     transform: translate(-50%,-50%);
-    border-radius: 1em;
+    border-radius: 5px;
 }
 .sub-container{
     width: 100%;
-    height: 50%;
+    height: 60%;
 }
 .textarea{
     width: 80%;
     height: 50px;
     background-color: var(--color-reglines);
-    margin: 0 60px;
+    border-radius: 3px;
+
 }
 .reg-flex{
     display: flex;
