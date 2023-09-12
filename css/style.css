@@ -48,6 +48,8 @@
 }
 ul{
     list-style: none;
+    font-size: 1rem;
+    font-weight: 600;
 }
 a{
     color: var(--color-secondary);
@@ -106,12 +108,16 @@ header{
 /*Main*/
 body{
     background-color: var(--color-secondary);
+    font-family: 'Noto Sans', sans-serif;
 }
 main section{
     padding: 60px 0;
 }
-.wave-padding{
-    padding-top: 60px;
+.first-section{
+    padding: 80px 0;
+}
+.odd{
+    padding: 120px 0;
 }
 h2{
     font-size: 50px;
@@ -129,11 +135,18 @@ h2{
 }
 .wave{
     width: 100%;
-    max-height: 100px;
+    max-height: 80px;
     fill: var(--color-section);
     position: absolute;
     bottom: 0;
-    right: 0;
+}
+.wave-reverse{
+    width: 100%;
+    max-height: 80px;
+    fill: var(--color-section);
+    position: absolute;
+    top: 0;
+    transform: rotate(180deg);
 }
 .even{
     background-color: var(--color-section);
