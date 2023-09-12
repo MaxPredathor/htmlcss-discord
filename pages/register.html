@@ -1,29 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Acme&family=Noto+Sans:wght@100;300;400;600&display=swap"
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Acme&family=Noto+Sans:wght@100;300;400;600&display=swap"
         rel="stylesheet">
-        <link rel="stylesheet" href="../css/style.css">
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Discord Register</title>
-    </head>
-    <body id="wallpaper">
-            <form class="register-container">
-                <div class="sub-container">
-                    <h1 id="register-title">Crea un account</h1>
-                    <label class="label-register" for="e-mail">E-MAIL <span>*</span></label>
-                    <textarea id="e-mail" class="textarea"></textarea>
-                    <label class="label-register" for="NOME VISUALIZZATO">NOME VISUALIZZATO</label>
-                    <textarea id="NOME VISUALIZZATO" class="textarea"></textarea>
-                    <label class="label-register" for="NOME UTENTE">NOME UTENTE <span>*</span></label>
-                    <textarea id="NOME UTENTE" class="textarea"></textarea>
-                    <label class="label-register" for="PASSWORD">PASSWORD <span>*</span></label>
-                    <textarea id="PASSWORD" class="textarea"></textarea>
-                </div>    
-            </form>
-            <label for="checkbox"></label>
-    </body>
+    <link rel="stylesheet" href="../css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discord Register</title>
+</head>
+
+<body id="wallpaper">
+    <form class="register-container">
+        <div class="sub-container">
+            <h1 id="register-title">Crea un account</h1>
+            <label class="label-register" for="e-mail">E-MAIL <span>*</span></label>
+            <textarea id="e-mail" class="textarea"></textarea>
+            <label class="label-register" for="NOME VISUALIZZATO">NOME VISUALIZZATO</label>
+            <textarea id="NOME VISUALIZZATO" class="textarea"></textarea>
+            <label class="label-register" for="NOME UTENTE">NOME UTENTE <span>*</span></label>
+            <textarea id="NOME UTENTE" class="textarea"></textarea>
+            <label class="label-register" for="PASSWORD">PASSWORD <span>*</span></label>
+            <textarea id="PASSWORD" class="textarea"></textarea>
+            <div>
+                <label class="label-register" for="date">DATA DI NASCITA <span>*</span></label>
+                <input id="date" type="date">
+                <div class="checkbox-container">
+                    <input class="checkbox" type="checkbox">
+                    <label id="label-checkbox" for="">(Facoltativo) Voglio ricevere e-mail con aggiornamenti, consigli e
+                        offerte speciali da
+                        Discord. Puoi revocare il consenso in qualunque momento.</label>
+                </div>
+                <button id="button-register">Continua</button>
+                <div class="checkbox-container">
+                    <input class="checkbox" type="checkbox">
+                    <label id="label-checkbox-due" for="">Dichiaro di aver letto e di accettare i <span
+                            class="color-blue"> Termini di Servizio</span> e l'<span class="color-blue">informativa
+                            sulla privacy</span> di Discord</label>
+                </div>
+            </div>
+            <a id="account" href="../index.html">Hai già un Account?</a>
+        </div>
+    </form>
+</body>
+
 </html>
