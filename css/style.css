@@ -9,6 +9,8 @@
     --color-section: #f6f6f6;
     --color-bluastro: #7289da;
     --color-header: #255ee9;
+    --color-regcontainer: #313338;
+    --color-reglines: #1e1f22;
 }
 html{
     scroll-behavior: smooth;
@@ -21,6 +23,39 @@ html{
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 5px;
+}
+#wallpaper{
+    background-image: url(/img/wallpaper2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1200px;
+    height: 1000px;
+}
+#register-title{
+    color: var(--color-secondary);
+    text-align: center;
+}
+.register-container{
+    width: 500px;
+    height: 700px;
+    background-color: var(--color-regcontainer);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 1em;
+}
+.textarea{
+    width: 80%;
+    height: 50px;
+    background-color: var(--color-reglines);
+    margin: 0 60px;
+}
+.reg-flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
 }
 .d-flex{
     display: flex;
