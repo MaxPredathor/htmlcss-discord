@@ -45,6 +45,10 @@ html{
     transform: translate(-50%,-50%);
     border-radius: 1em;
 }
+.sub-container{
+    width: 100%;
+    height: 50%;
+}
 .textarea{
     width: 80%;
     height: 50px;
