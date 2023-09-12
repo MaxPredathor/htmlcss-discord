@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Acme&family=Noto+Sans:wght@100;300;400;600&display=swap"
@@ -135,10 +136,25 @@
         </section>
     </main>
     <footer>
-        <div class="container debug d-flex">
+        <div class="container d-flex">
             <div>
                 <h3>Il tuo posto per <br>parlare</h3>
-                <select name="Italiano" id=""></select>
+                <div class="select-container">
+                    <img src="img/ita.png" alt="ita" id="flag">
+                    <select name="Lingua" class="select-box">
+                        <option id="pointer" value="Italiano">Italiano</option>
+                        <option value="Inglese">Inglese</option>
+                        <option value="Tedesco">Tedesco</option>
+                        <option value="Spagnolo">Spagnolo</option>
+                        <option value="Cinese">Cinese</option>
+                        <option value="Giapponese">Giapponese</option>
+                        <option value="Portoghese">Portoghese</option>
+                        <option value="Russo">Russo</option>
+                        <option value="Polacco">Polacco</option>
+                        <option value="Turco">Turco</option>
+                        <option value="Indu">Indu</option>
+                    </select>
+                </div>
             </div>
             <ul>
                 <h4>Prodotto</h4>
@@ -181,13 +197,11 @@
             <div>
             </div>
         </div>
-        <div class="container debug d-flex">
+        <div class="container blue-border d-flex start-flex">
             <a href="index.html">
                 <img src="img/logo.svg" alt="LogoFooter">
             </a>
-            <a href="">
-                <div class="btn bg-blue" role="button">Registrati</div>
-            </a>
+            <a href="" class="btn bg-blue" role="button">Registrati</a>
         </div>
     </footer>
 </body>

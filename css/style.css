@@ -36,6 +36,9 @@ html{
     justify-content: center;
     gap: 20px;
 }
+.start-flex{
+    align-content: flex-start;
+}
 .section-flex{
     display: flex;
     justify-content: center;
@@ -68,6 +71,9 @@ a:hover{
 a.underline-dark:hover{
     color: var(--color-primary);
     text-decoration: underline;
+}
+a.bg-blue:hover{
+    color: var(--color-primary);
 }
 /*Header*/
 header{
@@ -195,4 +201,25 @@ h3{
 }
 h4{
     color: var(--color-bluastro);
+}
+.blue-border{
+    border-top: 1px solid var(--color-bluastro);
+    min-height: 160px;
+}
+.select-container{
+    position: relative;
+    min-width: 50px;
+    height: 30px;
+}
+#flag{
+    max-width: 30%;
+}
+.select-box{
+    border: none;
+    appearance: none;
+    background-color: var(--color-primary);
+    color: var(--color-secondary);
+    padding: 0 30px 0 15px;
+    max-width: 70%;
+    font-size: 1rem;
 }
